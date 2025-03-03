@@ -30,11 +30,14 @@ El valor del respectivo impuesto se calcula teniendo en cuenta el valor comercia
 Instalación y Uso
 
 1.	Clonar el repositorio
+   
 Si utilizas git, ejecuta el siguiente comando:
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+
+git clone https://github.com/Katherato/calculo-impuestos-vehiculos.git
+
 O descárgalo en formato .zip desde GitHub y extráelo en tu computadora.
 
-2.	Abrir en NetBeans
+3.	Abrir en NetBeans
 
 1.	Abre NetBeans
 2.	Ve a Archivo > Abrir Proyecto
@@ -48,11 +51,16 @@ Compila el código en NetBeans.
 Tecnologías Utilizadas
 
 	Java 8 o superior
+
 	Swing para la GUI
+
 	NeatBeans IDE (opcional, pero recomendado)
+
 	Patrón de diseño MVC
 
+
 Estructura del Proyecto
+
 El proyecto está diseñado bajo el patrón MVC, con tres paquetes principales:
 📦 src/
  ┣ 📂 model/         #Contiene la lógica de cálculo del impuesto.
