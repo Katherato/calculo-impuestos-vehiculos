@@ -62,12 +62,19 @@ Tecnologías Utilizadas
 Estructura del Proyecto
 
 El proyecto está diseñado bajo el patrón MVC, con tres paquetes principales:
+
 📦 src/
+
  ┣ 📂 model/         #Contiene la lógica de cálculo del impuesto.
+ 
  ┃ ┣ 📜 Impuesto.java
+ 
  ┣ 📂 view/          #Contiene la interfaz gráfica.
+ 
  ┃ ┣ 📜 ImpuestosView.java
+ 
  ┣ 📂 controller/    #Maneja la comunicación entre la vista y el modelo.
+ 
  ┃ ┣ 📜 ImpuestosController.java
 
 
